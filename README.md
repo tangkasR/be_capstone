@@ -1,17 +1,17 @@
-# install package
+<p style="font-size: 16px; font-weight: bold;">Install package<p>
 npm install
 
-# create file .env:
+<p style="font-size: 16px; font-weight: bold;">Create file .env:<p>
 DATABASE_URL = "mysql://user:password@localhost:3306/mydatabase" <br>
 (user = username phpmyadmin | password = password phpmyadmin | 3306 = post phpmyadmin | mydatabase = name of database in phpmyadmin) <br>
 APP_PORT = (port to running server) <br>
 JWT_SECRET = (jwt secret to create secret token)<br>
 
-# Generate Prisma Client
+<p style="font-size: 16px; font-weight: bold;">Generate Prisma Client<p>
 npx prisma generate
 
-# Run migrations
+<p style="font-size: 16px; font-weight: bold;">Run migrations<p>
 npx prisma migrate dev
 
-# Start the server
+<p style="font-size: 16px; font-weight: bold;">Start the server<p>
 npm run serve
