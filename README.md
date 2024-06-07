@@ -1,7 +1,7 @@
 # Install package
 npm install
 
-# Create file .env:<br>
+# Create file .env<br>
 DATABASE_URL = "mysql://user:password@localhost:3306/mydatabase" <br>
 (user = username phpmyadmin | password = password phpmyadmin | 3306 = post phpmyadmin | mydatabase = name of database in phpmyadmin) <br>
 APP_PORT = (port to running server) <br>
